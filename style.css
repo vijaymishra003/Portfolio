@@ -139,19 +139,41 @@ html {
     font-weight: 500;
 }
 
-.home .home-content a {
+.links{
+    display: flex;
+    background: none;
+    justify-content: space-around;
+    width: 105px;
+    border-radius: 25px;
+    margin: 10px 0;
+    border: 2px solid crimson;
+}
+
+.links i{
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+    padding: 7px 15px;
+    transition: all 0.3s ease;
+}
+
+.links i:hover {
+    color: crimson;
+}
+
+.get-in-touch {
     display: inline-block;
     background: crimson;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
-    margin-top: 20px;
+    margin-top: 5px;
     border-radius: 6px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
 
-.home .home-content a:hover {
+.get-in-touch:hover {
     color: crimson;
     background: none;
 }
@@ -392,7 +414,7 @@ section .title::after {
 }
 
 .skills .skills-content .right .flutter::before {
-    width: 85%
+    width: 87%
 }
 
 .skills .skills-content .right .backend::before {
@@ -400,7 +422,7 @@ section .title::after {
 }
 
 .skills .skills-content .right .java::before {
-    width: 87%
+    width: 90%
 }
 
 .skills .skills-content .right .figma::before {
@@ -511,7 +533,7 @@ footer span a:hover {
         font-size: 35px;
     }
 
-    .home .home-content a {
+    .get-in-touch {
         font-size: 23px;
         padding: 10px 30px;
     }
@@ -558,7 +580,7 @@ footer span a:hover {
         font-size: 32px;
     }
 
-    .home .home-content a {
+    .get-in-touch {
         font-size: 20px;
     }
 
